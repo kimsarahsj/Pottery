@@ -1,0 +1,53 @@
+body {
+  background: #000000;
+}
+h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 28px;
+}
+h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 36px;
+}
+p {
+  color: #ffffff;
+}
+li {
+  list-style: none;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 500ms;
+}
+a:hover {
+  cursor: pointer;
+  font-size: 58px;
+  font-size-adjust: 10px;
+}
+.top-image {
+  height: 200px;
+  max-width: 450px;
+  border-radius: 5%;
+  opacity: 75%;
+}
+.topics {
+  display: block;
+  margin: 0 auto;
+}
+.content {
+  display: block;
+  margin: 0 auto;
+}
+.d-flex {
+  margin: auto;
+  width: 100%;
+  padding: 100px 50px 50px 50px;
+}
+.vertical {
+  border-left: 6px solid #ffffff;
+  left: 50%;
+}
