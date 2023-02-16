@@ -9,7 +9,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 250%;
 }
 p {
   color: #ffffff;
@@ -25,8 +25,8 @@ a {
 }
 a:hover {
   cursor: pointer;
-  font-size: 58px;
-  font-size-adjust: 10px;
+  font-size: 160%;
+  font-size-adjust: 5%;
 }
 .top-image {
   height: 250px;
@@ -50,4 +50,10 @@ a:hover {
 .vertical {
   border-left: 6px solid #ffffff;
   left: 50%;
+}
+.fa-house {
+  display: block;
+  color: #ffffff;
+  text-align: right;
+  margin: 5px 5px;
 }

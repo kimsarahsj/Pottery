@@ -54,6 +54,19 @@ let page = {
     Glazing the ceramic is final step toward a complete product. There are many glaze colors that can be used to decorate the ceramic. Glazing the ceramic is the process of making the ceramic piece waterproof and food safe.  
     </p>`,
   },
+  pottery: {
+    image: `<img
+              src="src/images/pexels-cottonbro-studio-3094041.jpg"
+              class="top-image"
+              alt="pottery shelf"
+            />`,
+    heading: `<h1>Pottery</h1>`,
+    content: ` <p>
+    The practice of pottery has been around for many years and has
+              developed into an artform. Pottery dates back to the Neolithic
+              period and is made by forming malleable clay into a shape and
+              firing them at high temperatures to create a stiff item.</p>`,
+  },
 };
 
 function updateContent(event) {
@@ -81,3 +94,6 @@ bisqueLink.addEventListener("click", updateContent);
 
 let glazeLink = document.querySelector("#glaze");
 glazeLink.addEventListener("click", updateContent);
+
+let potteryLink = document.querySelector("#pottery");
+potteryLink.addEventListener("click", updateContent);
